@@ -1,0 +1,15 @@
+# مشروع أعداد قناة يوتيوب
+# رسالة ترحيبية للمستخدم
+print("Welcome to the YouTube Channel name Generator!")
+
+# تخزين الاسم الذي يريد المستخدم تسميته للقناة
+user_name_channel = input("What is your nickname?\n")
+
+# طلب اسم محتوى القناة
+name_channel = input("What is your channel about?\n")
+
+# متغير يحتوي على اسم القناة الجديد
+new_channel_name = f"You could name your channel {name_channel} with {user_name_channel}"
+
+# طباعة اسم القناة الجديد
+print(new_channel_name)
